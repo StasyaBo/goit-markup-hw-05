@@ -48,10 +48,8 @@
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-button" type="button"> Order Service</button>
-      
         </div>
-     </section>
-
+      </section>
      <!-- Section 2  Features -->
       <section class="section features">
 
@@ -113,7 +111,6 @@
                 </p>
               </li>
             </ul>
-          
         </div>
       </section>
       
@@ -410,7 +407,73 @@
             </a>
           </li>
         </ul></div>
-      </div> 
-    </footer>
-  </body>
+
+        <div class="footer-subscribe">
+          <div class="footer-subscribe-box">
+            <label class="footer-subscribe-logo" for="sub-form">Subscribe</label>
+            <input class="footer-subscribe-form" 
+            type="email" 
+        name="email"
+        id="sub-form"
+        placeholder="Email"/>
+      </div>
+
+        <button type="submit" class="footer-button">Subscribe
+          <svg class="footer-button-flame" width="24" height="24" aria-label="icon-Frame">
+            <use href="./images/icons.svg#icon-Frame">
+            </use>
+          </svg >  
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay is-open"> 
+    <form class="contact-form">
+      <div class="contact-cross-form">
+        <svg class="contact-cross-close" width="8" height="8" aria-label="cross">
+          <use href="./images/icons.svg#icon-Vector"></use>
+        </svg>
+      </div>
+    <p class="contact-form-head">Leave your contacts and we will call you back</p>
+    <div class="contact-form-content">
+    <label class="contact-form-name" 
+    for="user-name">Name</label>
+    <input 
+    type="text" 
+    name="user-name"
+    class="contact-form-input" 
+    id="user-name"
+    placeholder=""
+    required/>
+    <label class="contact-form-name" 
+    for="user-phone">Phone</label>
+    <input 
+    type="tel" 
+    name="user-phone"  
+    class="contact-form-input" 
+    id="user-phone"
+    placeholder=""
+    required/>
+    <label class="contact-form-name" 
+    for="user-mail">Email</label>
+    <input 
+    type="email"  
+    name="user-mail" 
+    class="contact-form-input" 
+    id="user-mail"
+    placeholder=""
+    required/>
+    <label class="contact-form-name" 
+    for="user-comment">Comment</label>
+    <input 
+    type="text" 
+    name="user-comment"
+    class="contact-form-comment" 
+    id="user-comment" 
+    placeholder="Text input"/>
+</div>
+<button type="submit" class="contact-form-button">Send</button>
+ </form></div>
+</body>
 </html>
