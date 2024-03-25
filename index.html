@@ -425,24 +425,23 @@
         </button>
       </form>
       </div>
-
-        
       </div>
-    </div>
   </footer>
 
   <div class="modal-form is-open"> 
-    <div class="modal-overlay"> </div>
-    <form class="contact-form">
-      <div class="contact-cross-form">
-        <svg class="contact-cross-close" width="8" height="8" aria-label="cross">
+    <div class="modal-overlay"> 
+      <button type="button" class="contact-form-button">Send
+        <svg class="button-svg" width="8" height="8" aria-label="cross">
           <use href="./images/icons.svg#icon-Vector"></use>
         </svg>
-      </div>
-    <p class="contact-form-head">Leave your contacts and we will call you back</p>
-    <div class="contact-form-content">
-    <label class="contact-form-name" 
+      </button>
+      <p class="contact-form-head">Leave your contacts and we will call you back</p>
+      <div>
+        <form class="contact-form">
+          <div class="contact-form-box">
+            <label class="contact-form-name" 
     for="user-name">Name</label>
+    <div class="contact-form-box-input">
     <input 
     type="text" 
     name="user-name"
@@ -450,6 +449,18 @@
     id="user-name"
     placeholder=""
     required/>
+  </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+    
+      <div class="contact-cross-form">
+        
+      </div>
+    
+    
     <label class="contact-form-name" 
     for="user-phone">Phone</label>
     <input 
@@ -477,7 +488,7 @@
     id="user-comment" 
     placeholder="Text input"/>
 </div>
-<button type="submit" class="contact-form-button">Send</button>
+
  </form></div>
 </body>
 </html>
