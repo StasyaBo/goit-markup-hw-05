@@ -621,6 +621,10 @@ background-color: #404BBF;
 .footer-button {
     display: flex;
     width: 165px;
+    min-width: 165px;
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Roboto";
     height: 40px;
     padding: 8px 24px;
     gap: 16px;
@@ -674,7 +678,7 @@ background-color: #404BBF;
     fill:rgba(46, 47, 66, 1);
 }
 
-.modal-overlay {
+.modal-form {
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
@@ -691,7 +695,11 @@ background-color: #404BBF;
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-overlay.is-open {
+.modal-overlay {
+    position: absolute
+}
+
+.modal-form.is-open {
 opacity: 1;
 pointer-events: auto;
 }
