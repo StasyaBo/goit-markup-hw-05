@@ -624,7 +624,7 @@ background-color: #404BBF;
     min-width: 165px;
     justify-content: center; 
     align-items: center; 
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     height: 40px;
     padding: 8px 24px;
     gap: 16px;
@@ -643,6 +643,8 @@ background-color: #404BBF;
 
 .footer-button-flame {
     margin-left: 16px;
+    fill:rgba(255, 255, 255, 1);
+
 }
 
 /*--Modal overlay--*/
