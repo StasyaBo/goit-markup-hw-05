@@ -850,15 +850,17 @@ margin-bottom: 8px;
 
 }
 
+.form-icon {
+}
+
 .contact-form-box-four{
     margin-bottom: 16px;
 }
 
-.formagreement-span{
+.formagreement-span {
     
-    /*display: inline-flex;
-    align-content: center;*/
-    
+    display: inline-flex;
+    align-content: center;
     justify-content: center;
     align-items: center;
     fill: transparent;
