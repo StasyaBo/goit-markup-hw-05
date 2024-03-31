@@ -627,7 +627,7 @@ background-color: #404BBF;
     border: none;
     border-radius: 4px;
     color: #FFFFFF;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif ;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -644,30 +644,6 @@ background-color: #404BBF;
 }
 
 /*--Modal overlay--*/
-
-.contact-form {
-    margin: auto;
-    border-radius: 4px;  
-    background-color: rgba(252, 252, 252, 1);
-}
-
-.contact-form-head {
-text-align: center;
-    width: 360px;
-    height: 24px;
-    margin-bottom: 16px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
-}
-
-.button-svg {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .modal-form {
     background-color: rgba(46, 47, 66, 0.4);
@@ -700,6 +676,28 @@ text-align: center;
     padding: 72px 24px 24px 24px;
 }
 
+.overlay-text {
+    text-align: center;
+    width: 360px;
+    height: 24px;
+    margin-bottom: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.overlay-form {
+    margin: auto;
+    border-radius: 4px;  
+    background-color: rgba(252, 252, 252, 1);
+}
+.button-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-form.is-open {
 opacity: 1;
@@ -737,11 +735,11 @@ margin-bottom: 8px;
     text-align: left;
 }
 .contact-form-name{
-    display: block;
+    /*display: block;
+     font-weight: 400;*/
     margin-bottom: 4px;
     font-family: Roboto;
     font-size: 12px;
-    font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
     text-align: left;
@@ -765,8 +763,6 @@ margin-bottom: 8px;
     outline: transparent; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
-
 
 .contact-form-svg {
     position: absolute;
@@ -861,8 +857,9 @@ margin-bottom: 8px;
 
 .formagreement-span{
     
-    display: inline-flex;
-    align-content: center;
+    /*display: inline-flex;
+    align-content: center;*/
+    
     justify-content: center;
     align-items: center;
     fill: transparent;
@@ -874,7 +871,7 @@ margin-bottom: 8px;
     margin-right: 8px;
 }
 
-.formagreement-container:cheked+.contact-form-name .formagreement-span{
+.formagreement-container:cheked+.contact-form-name .formagreement-span {
     background-color: #404bbf; 
     border: none;
     fill: #f4f4fd;
