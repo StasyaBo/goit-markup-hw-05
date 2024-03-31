@@ -844,14 +844,14 @@ color: #8e8f99;
 
 .contact-form-five{
     margin-bottom: 24px; 
-    
 
 }
+
 .contact-form-box-four{
     margin-bottom: 16px;
 }
 
-.contact-form-span{
+.formagreement-span{
     
     display: inline-flex;
     align-content: center;
@@ -866,15 +866,14 @@ color: #8e8f99;
     margin-right: 8px;
 }
 
-.contact-form input[type="checkbox"]:checked {
+.formagreement-container:cheked+.contact-form-name .formagreement-span{
     background-color: #404bbf; 
     border: none;
-    fill: #F4F4FD; 
+    fill: #f4f4fd;
 }
 
 .link-pp{
     color: #4d5ae5;
-
 }
 
 .button-form {
