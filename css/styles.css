@@ -599,13 +599,11 @@ background-color: #404BBF;
 
 .footer-subscribe-form{
     width: 264px;
-    height: 40px;
-    top: 140px;
-    left: 828px;
+    height: 40px; 
     border-radius: 4px;   
     border: 1px solid rgba(255, 255, 255, 1);
     background-color: transparent;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
     font-size: 12px; 
     line-height: 2; 
     letter-spacing: 0.04em;
@@ -626,8 +624,6 @@ background-color: #404BBF;
     align-items: center; 
     font-family: "Roboto", sans-serif;
     height: 40px;
-    padding: 8px 24px;
-    gap: 16px;
     border: none;
     border-radius: 4px;
     color: #FFFFFF;
@@ -638,7 +634,7 @@ background-color: #404BBF;
     letter-spacing: 0.04em;
     text-align: center;
     background-color: rgba(77, 90, 229, 1);  
-    margin-left: 24px;
+    
 }
 
 .footer-button-flame {
@@ -743,13 +739,13 @@ margin-bottom: 8px;
 .contact-form-name{
     display: block;
     margin-bottom: 4px;
-font-family: Roboto;
-font-size: 12px;
-font-weight: 400;
-line-height: 1.17;
-letter-spacing: 0.04em;
-text-align: left;
-color: #8e8f99; 
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #8e8f99; 
 
 
 }
@@ -770,19 +766,29 @@ color: #8e8f99;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-.contact-form-input:focus{
-    border-color: #4D5AE5;
-    fill: #4D5AE5;
-}
 
-.contact-form-svg{
+
+.contact-form-svg {
     position: absolute;
     left: 16px;
     top: 50%; 
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 0;
+    fill: rgba(46, 47, 66, 1);
+
+
 }
+
+.contact-form-input:focus {
+    border-color: #4D5AE5;
+}
+
+.contact-form-input:focus + .contact-form-svg{
+    fill: #4D5AE5;
+}
+
+
 .contact-form-button{
     position: absolute;
     top: 24px; 
